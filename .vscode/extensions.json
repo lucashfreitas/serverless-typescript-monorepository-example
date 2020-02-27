@@ -1,0 +1,13 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  /*
+threadheap.serverless-ide-vscode - support for yaml files
+
+    */
+  "recommendations": [
+    "threadheap.serverless-ide-vscode",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-tslint-plugins"
+  ]
+}

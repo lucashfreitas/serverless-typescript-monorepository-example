@@ -1,0 +1,26 @@
+{
+  "name": "@my-application/serviceB",
+  "version": "1.0.0",
+  "description": "Service B - Second Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucashfreitas/serverless-typescript-monorepository-example.git"
+  },
+  "keywords": [
+    "typescript",
+    "serverless",
+    "monorepository",
+    "yarn",
+    "lerna"
+  ],
+  "author": "Lucas Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucashfreitas/serverless-typescript-monorepository-example/issues"
+  },
+  "homepage": "https://github.com/lucashfreitas/serverless-typescript-monorepository-example#readme"
+}

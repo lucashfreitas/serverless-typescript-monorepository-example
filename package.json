@@ -1,0 +1,42 @@
+{
+  "name": "serverless-typescript-monorepository-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Typescript serverless monorepository example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucashfreitas/serverless-typescript-monorepository-example.git"
+  },
+  "keywords": [
+    "typescript",
+    "serverless",
+    "monorepository",
+    "lerna",
+    "yarn",
+    "worspaces"
+  ],
+  "author": "Lucas Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucashfreitas/serverless-typescript-monorepository-example/issues"
+  },
+  "homepage": "https://github.com/lucashfreitas/serverless-typescript-monorepository-example#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.44",
+    "@types/node": "^13.7.6",
+    "aws-sdk": "^2.627.0",
+    "lerna": "^3.20.2",
+    "ts-lint": "^4.5.1",
+    "ts-loader": "^6.2.1",
+    "webpack": "^4.41.6"
+  }
+}
